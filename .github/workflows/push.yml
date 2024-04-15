@@ -44,6 +44,7 @@ jobs:
   lint:
 
     runs-on: windows-latest
+    steps:
     - name: RunLint
     working-directory: ${{env.GITHUB_WORKSPACE}}
 
