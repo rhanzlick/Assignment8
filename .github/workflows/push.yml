@@ -55,7 +55,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: my-artifact
-        path: x64\Release
+        path: x64\Release\
         if-no-files-found: error
   
   test:
