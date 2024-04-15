@@ -43,12 +43,10 @@ jobs:
     
   lint:
 
-    runs-on: windows-lates
+    runs-on: windows-latest
     - name: RunLint
     working-directory: ${{env.GITHUB_WORKSPACE}}
 
     run: echo LINT
-
-  
 
 
